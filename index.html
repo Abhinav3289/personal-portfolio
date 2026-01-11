@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Abhinav Patel | Developer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhinav Patel | Portfolio</title>
 
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
   <!-- CSS -->
@@ -13,40 +13,45 @@
 </head>
 <body>
 
+  <!-- NAVBAR -->
+  <nav>
+    <h3>Abhinav</h3>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-content">
-      <h1>Abhinav Patel</h1>
-      <h2>Frontend Developer • AI Projects • Web Apps</h2>
-      <p>
-        I design and build clean, modern, and scalable web applications with real-world impact.
-      </p>
-      <div class="hero-buttons">
-        <a href="#projects" class="btn primary">View Projects</a>
-        <a href="https://github.com/Abhinav3289" target="_blank" class="btn secondary">GitHub</a>
-      </div>
+    <h1>Hi, I'm <span>Abhinav Patel</span></h1>
+    <p>Frontend Developer • AI & Web Projects • Problem Solver</p>
+    <div class="buttons">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="https://github.com/Abhinav3289" target="_blank" class="btn secondary">GitHub</a>
     </div>
   </section>
 
   <!-- ABOUT -->
-  <section class="about">
+  <section id="about" class="section">
     <h2>About Me</h2>
     <p>
-      I’m a passionate developer focused on frontend engineering and applied AI.
-      I enjoy building dashboards, finance tools, healthcare platforms, and
-      machine-learning driven applications.
+      I’m a passionate frontend developer focused on building clean, responsive,
+      and scalable web applications. I enjoy working on real-world projects
+      across finance, healthcare, and AI domains.
     </p>
   </section>
 
   <!-- PROJECTS -->
-  <section id="projects" class="projects">
-    <h2>Featured Projects</h2>
+  <section id="projects" class="section dark">
+    <h2>Projects</h2>
 
     <div class="project-grid">
 
       <div class="project-card">
         <h3>Healthcare Dashboard</h3>
-        <p>Modern healthcare UI deployed on Vercel.</p>
+        <p>Healthcare web interface deployed on Vercel.</p>
         <a href="https://healthcare-nine-green.vercel.app/" target="_blank">Live Demo →</a>
       </div>
 
@@ -58,24 +63,22 @@
 
       <div class="project-card">
         <h3>Token Trading Table</h3>
-        <p>Interactive token trading dashboard.</p>
+        <p>Interactive trading dashboard with tabular data.</p>
         <a href="https://token-trading-table-etqwacr74-abhinav3289s-projects.vercel.app/" target="_blank">Live Demo →</a>
       </div>
 
       <div class="project-card">
         <h3>Facial Deepfake Detection</h3>
-        <p>AI-based system for detecting deepfake videos.</p>
-        <a href="https://github.com/Shivam-26102003/Facial_Deepfake-video_detection" target="_blank">
-          GitHub Repo →
-        </a>
+        <p>AI-based deepfake video detection system.</p>
+        <a href="https://github.com/Shivam-26102003/Facial_Deepfake-video_detection" target="_blank">GitHub →</a>
       </div>
 
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section class="contact">
-    <h2>Let’s Connect</h2>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
     <p>Email: <a href="mailto:abhinavpatel@example.com">abhinavpatel@example.com</a></p>
     <p>GitHub: <a href="https://github.com/Abhinav3289" target="_blank">github.com/Abhinav3289</a></p>
   </section>
@@ -87,3 +90,4 @@
 
 </body>
 </html>
+
